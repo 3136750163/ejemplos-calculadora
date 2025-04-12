@@ -1,0 +1,15 @@
+div {
+    background-color: rgb(243, 151, 208);
+    padding: 350px;
+    width: 50x;
+    height: 25px;
+    text-align: center;
+}
+
+.principal {
+   display: flex;
+   padding: 10px;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+}

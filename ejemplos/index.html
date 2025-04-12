@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #ffffff;
+           font-family: serif;
+            text-align: center;
+            padding: 20px;
+        }
+        div{
+            background-color: #e49ac3;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5 7 10px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            color: #000000;
+        }
+        input[type="text"]{
+            width: 200px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button{
+            padding: 10px 20px;
+            background-color: #64bee7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #218838;
+        }
+        button:disabled{
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        button:transform{
+            transform: scale(1.1);
+        }   
+
+    </style>
+    <div>
+        <h1>DATOS</h1>
+
+
+
+    
+    
+    <input type="text"  id="nombre" placeholder="Ingresa tu nombre">
+    <input type= "text" name=""  id="edad" placeholder="Ingresa tu edad">
+    <input type="text" name=" " id="cedula" placeholder="Ingresa tu cedula">
+    <input type="text" name=" " id="telefono" placeholder="Ingresa tu telefono">
+
+    <h1>
+        DATOS DE IMC
+    </h1>
+    <input type="text" name=" " id="peso" placeholder="Ingresa tu peso">
+    <input type="text" name=" " id="altura" placeholder="Ingresa tu altura">
+
+    <p id="parrafo">
+
+        
+    </p>
+    <button onclick="calcularIMC()">Calcular</button>
+    <button onclick="limpiarCampos()">Limpiar</button>
+    
+
+
+
+<p id="resultado final">
+
+</p>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
